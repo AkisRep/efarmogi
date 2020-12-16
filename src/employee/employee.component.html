@@ -1,0 +1,23 @@
+<!-- <ul>
+    <li *ngFor="let country of countries">{{country}}</li>
+</ul> -->
+
+
+<table class="table table-dark table-hover table-bordered text-center">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of Employees">
+            <td><img src={{emp.photoUrl}}></td>
+            <td>{{emp.firstname}}</td>
+            <td>{{emp.lastname}}</td>
+            <td>{{emp.salary}}</td>
+        </tr>
+    </tbody>
+</table>

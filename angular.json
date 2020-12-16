@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "efarmogi"
+  "defaultProject": "efarmogi",
+  "cli": {
+    "analytics": "dc073a2f-5ced-4254-b187-d419e5c9c2b3"
+  }
 }
